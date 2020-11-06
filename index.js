@@ -70,8 +70,8 @@ function countNumbers(minNum, maxNum) {
 
 /**
  * 
- * @param {*} simbol 
+ * @param {*} symbol 
  */
-function checkType(simbol) {
-    return Number.isInteger(+simbol);
+function checkType(symbol) {
+    return Number.isInteger(+symbol);
 }
